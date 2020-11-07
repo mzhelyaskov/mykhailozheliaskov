@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prebuild": "npm install webpack-cli -g",
-    "build": "cd ./webapp && npm ci && cd ./app && npm ci",
+    "build": "cd ./webapp && npm ci && cd ../app && npm ci",
     "postbuild": "grunt",
     "start": "node ./app/server.js"
   },
