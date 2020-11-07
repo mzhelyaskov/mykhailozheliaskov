@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prebuild": "npm --prefix ./webapp ci",
-    "build": "npm --prefix ./app ci",
+    "prebuild": "cd ./webapp && npm ci",
+    "build": "cd ../app && npm ci",
     "postbuild": "grunt",
     "start": "node ./app/server.js"
   },
