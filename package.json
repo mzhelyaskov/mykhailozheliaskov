@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prebuild": "cd ./webapp && npm ci",
-    "build": "npm install webpack-cli -g cd ./app && npm ci",
+    "prebuild": "npm install webpack-cli -g",
+    "build": "cd ./webapp && npm ci && cd ./app && npm ci",
     "postbuild": "grunt",
     "start": "node ./app/server.js"
   },
