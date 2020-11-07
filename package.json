@@ -4,18 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prebuild": "npm install webpack-cli -g",
-    "build": "cd ./webapp && npm ci && cd ../app && npm ci",
-    "postbuild": "grunt",
+    "prebuild": "cd ./webapp && npm ci && cd ../app && npm ci",
+    "build": "grunt",
     "start": "node ./app/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/proitschool/resume_fe-0001.git"
   },
-  "engines": { 
-   "node": "12.19.0" 
-  }, 
   "keywords": [],
   "author": "",
   "license": "ISC",
