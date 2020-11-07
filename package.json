@@ -19,7 +19,9 @@
     "url": "https://github.com/proitschool/resume_fe-0001/issues"
   },
   "homepage": "https://github.com/proitschool/resume_fe-0001#readme",
-  "dependencies": {},
+  "dependencies": {
+    "webpack-cli": "^3.3.12"
+  },
   "devDependencies": {
     "grunt": "^1.3.0",
     "grunt-cli": "^1.3.2",
