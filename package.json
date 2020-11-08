@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prebuild": "cd ./webapp && npm ci && cd ../app && npm ci",
     "build": "grunt",
-    "start": "node ./app/server.js"
+    "start": "node ./server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,8 @@
   },
   "homepage": "https://github.com/proitschool/resume_fe-0001#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
     "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
