@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "grunt",
+    "build:prod": "grunt",
     "start": "node ./server.js"
   },
   "repository": {
